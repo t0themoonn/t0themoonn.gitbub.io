@@ -1,0 +1,28 @@
+*{padding: 0;margin: 0;}
+.container {height: 100vh;  
+             width: 100vw;
+            color: #444;
+             background:#ffdbea;
+            text-align: center;}
+.amas, .Sí, .Obvio{
+    padding-top: 25%;
+}
+h2{font-size: 72px;margin-bottom: 30px;}
+.amas span{color:#e06397;}
+.amas a{text-decoration: none;
+       background: #fae6ee;
+        padding: 5px;
+       margin: 5px 10px;
+       border: 3px solid #b32e63;
+       border-radius: 10px ;
+}
+#Sí{color: #ad1c58;}
+#Obvio{color: #bf0f58;}
+img{height: 40px;width: 40px;
+    animation: corazón 4s linear infinite;}
+
+    @keyframes corazón{
+        0% {transform: scale(.5);}
+        50% {transform: scale(1.5);}
+        100% {transform: scale(.5);}
+    }
